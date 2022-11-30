@@ -1,0 +1,48 @@
+#Code provided for Number Guess
+
+from gpiozero import Button, LED
+from time import sleep
+import random
+
+led_red = LED(17)
+
+button_1 = Button(2)
+
+time = random.uniform(5, 10)
+sleep(time)
+led.on()
+
+def compareNumbers(target,userGuess):
+    if userGuess==target:
+        print("Your guess is right")
+        return 0
+    elif userGuess<target:
+        print("Wrong!\nClue: Your guess is smaller than the target")
+    elif userGuess>target:
+        print("Wrong!\nClue: Your guess is greater than the target")
+    return 1
+
+def main():
+    target = random.randint(1, 100)
+    score=20
+    #Loop until user wins
+    while True:
+        x=input("Guess the number:")
+        #Convert to int
+        x=int(x)
+        result=compareNumbers(target,x)
+        if result==0:
+            break
+        else:
+            score-=1
+
+    print('Your score is:',score,'out of 20')
+    
+#Driver code
+    
+if __name__ == "__main__":   
+    main()
+    
+led.off()
+
+https://makersportal.com/blog/2018/2/2/arduino-randomly-blinking-multiple-leds-with-only-9-lines-of-code
