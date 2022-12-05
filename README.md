@@ -50,7 +50,7 @@ The setup should resemble the figure below.
 
 
 Step 5
-The subsequent step is an illustration of writing the code that simulates the functionality of the device measuring distance using the Raspberry Pi, Buzzer, and ultrasonic sensor. The code used for this simulation is found at (https://github.com/dgermillarcom/Measuring-Distance-Using-Raspberry-Pi/blob/main/MeasuringDistanceUsingRaspberry.py). The executable program is created from a pycharm IDE. Create a new project named MeasuringDistanceUsingRaspberry.py, then copy and paste the code (https://github.com/dgermillarcom/Measuring-Distance-Using-Raspberry-Pi/blob/main/MeasuringDistanceUsingRaspberry.py). And save, then run. The pycharm IDE should be installed in Raspberry Pi. 
+The subsequent step is an illustration of writing the code that simulates the functionality of the device measuring distance using the Raspberry Pi, Buzzer, and ultrasonic sensor. The code used for this simulation is found at (https://github.com/jbrant0/Final-Project-IOT/blob/bb8310c90197da48bbad9f62982d25a69c38e23d/Main%20Code). The executable program is created from a pycharm IDE. Create a new project named MeasuringDistanceUsingRaspberry.py, then copy and paste the code (https://github.com/jbrant0/Final-Project-IOT/blob/bb8310c90197da48bbad9f62982d25a69c38e23d/Main%20Code). And save, then run. The pycharm IDE should be installed in Raspberry Pi. 
 
 ![rasp6](https://user-images.githubusercontent.com/56275470/205505098-045a4f19-f1c7-42c7-8309-228885fd1113.png)
 
