@@ -1,4 +1,4 @@
-# Measuring-Distance-Using-Raspberry-Pi
+# Measuring Distance
 Measuring Distance Using Raspberry Pi, breadboard, LED, Buzzer and ultrasonic sensor
 An interface made of an LED, a Buzzer, and an ultrasonic sensor is a perfect match for measuring the distance to an object using ultrasonic waves. The step-by-step illustration shows the process of creating a distance-measuring tool using a Raspberry Pi and a breadboard. The measuring tool consists of a LED light, a buzzer, and an ultrasonic sensor. The ultrasonic sensor sends sound wave frequencies, while the buzzer produces sound when it detects an object.
 To create this device, you will need the following:
