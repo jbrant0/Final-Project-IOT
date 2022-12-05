@@ -9,22 +9,22 @@ To create this device, you will need the following:
 •	Ultrasonic sensor
 •	buzzer 
 The diagram below shows a schematic illustration of how I set up the device using the components mentioned, Raspberry Pi and a breadboard.
-![rasp1](https://user-images.githubusercontent.com/56275470/205504578-576cc584-f368-4f46-9a92-51b04ffe4ccc.png)
+![rasp1]
 
 Step 1
 I began by mounding the ultrasonic sensor on the breadboard, as shown below.
-![rasp2](https://user-images.githubusercontent.com/56275470/205504655-9627c360-943a-4282-a5cc-b7c874acc5b9.png)
+![rasp2]
 
 Step 2
 Then I connected the LED light as shown.
 
-![rasp3](https://user-images.githubusercontent.com/56275470/205504910-764081cb-7b1f-478c-a3e1-de783de258fb.png)
+![rasp3]
 
 Step 3
 Then I introduced the buzzer, as shown in the diagram.
 
 
-![rasp4](https://user-images.githubusercontent.com/56275470/205504945-2893d52a-71a8-4cd7-824e-756e65a6f4a1.png)
+![rasp4]
 
 Step 4
 
@@ -46,23 +46,23 @@ Follow the following illustrations,
 The setup should resemble the figure below.
 
 
-![rasp5](https://user-images.githubusercontent.com/56275470/205504967-fe17b974-c7c5-456e-9a50-9d74c31128cb.png)
+![rasp5]
 
 
 Step 5
 The subsequent step is an illustration of writing the code that simulates the functionality of the device measuring distance using the Raspberry Pi, Buzzer, and ultrasonic sensor. The code used for this simulation is found at (https://github.com/jbrant0/Final-Project-IOT/blob/bb8310c90197da48bbad9f62982d25a69c38e23d/Main%20Code). The executable program is created from a pycharm IDE. Create a new project named MeasuringDistanceUsingRaspberry.py, then copy and paste the code (https://github.com/jbrant0/Final-Project-IOT/blob/bb8310c90197da48bbad9f62982d25a69c38e23d/Main%20Code). And save, then run. The pycharm IDE should be installed in Raspberry Pi. 
 
-![rasp6](https://user-images.githubusercontent.com/56275470/205505098-045a4f19-f1c7-42c7-8309-228885fd1113.png)
+![rasp6]
 
-![rasp7](https://user-images.githubusercontent.com/56275470/205505105-14cfada5-a8ed-45b1-8bbd-7a5ef9a15a34.png)
+![rasp7]
 
-![rasp8](https://user-images.githubusercontent.com/56275470/205505110-695b99d8-bc48-483f-9f67-22d23424aae9.png)
+![rasp8]
 
 Step 6
 After writing the code, you can now execute the program by hitting the run button. The distance of the object will be varied. 
 
 
-![rasp9](https://user-images.githubusercontent.com/56275470/205505137-feba8f41-0c99-4a94-86dc-6956869b33f6.png)
+![rasp9]
 
 Conclusion
 The tool used to measure objects' distance would be available after following the above steps. The video link provides guides on how the device will work after completely assembling the components. 
